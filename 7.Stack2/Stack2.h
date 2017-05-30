@@ -64,6 +64,11 @@ public:
 		}
 
 	}
+	
+	int HowMany()
+	{
+		return (topIndex);
+	}
 
 };
 

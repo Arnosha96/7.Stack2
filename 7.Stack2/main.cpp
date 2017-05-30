@@ -16,6 +16,9 @@ int main()
 	st.Push(1);
 	st.Push(3545);
 
+	cout<< "Количество: "<< st.HowMany() << endl;
+
+
 	try
 	{
 		cout << st.Pop() << endl;
@@ -30,6 +33,8 @@ int main()
 	{
 		cout << "Error:" << message << endl;
 	}
+
+	cout<< "Количество: "<< st.HowMany() << endl;
 
 	_getch();
 	return 0;
